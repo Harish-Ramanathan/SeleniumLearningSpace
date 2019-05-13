@@ -27,9 +27,7 @@ public class CaseStudy2 {
 		// Enter the data to be searched
 		driver.findElement(By.xpath("//input[@class='search_inp collapse giTrackElementHeader']")).sendKeys("Selenium");
 
-		// Perform Search on Web Page
-		
-		
+		// Perform Search on WebPage
 		driver.findElement(By.xpath("//span[@class='typeahead__button']")).click();
 		
 		
